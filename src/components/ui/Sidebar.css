@@ -133,14 +133,3 @@
     }
 }
 
-/*responsive sidebar*/
-@media screen and (max-width: 768px) {
-    .sidebar {
-        width: 41%;
-        left: -100%;
-    }
-
-    .sidebar.open {
-        left: 0;
-    }
-}
