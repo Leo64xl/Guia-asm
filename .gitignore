@@ -1,0 +1,26 @@
+# Ignorar node_modules (dependencias de npm/yarn)
+node_modules/
+
+# Ignorar archivos de entorno local
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignorar carpetas de build
+build/
+dist/
+
+# Ignorar archivos de caché
+.cache/
+
+# Ignorar archivos de configuración local
+*.local
+
+# Ignorar archivos de IDE
+.vscode/
+.idea/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
