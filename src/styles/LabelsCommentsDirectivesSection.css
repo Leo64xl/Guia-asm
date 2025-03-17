@@ -1,0 +1,86 @@
+.global-container-labels-comments-directives {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252525;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.labels-comments-directives-container {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.labels-comments-directives-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.section-labels-comments-directives {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.section-labels-comments-directives h2 {
+    font-size: 1.8rem;
+    color: #aed7ff;
+    padding-bottom: 5px;
+}
+
+.section-labels-comments-directives p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.section-labels-comments-directives table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.section-labels-comments-directives table th,
+.section-labels-comments-directives table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+    color: #ddd;
+}
+
+.section-labels-comments-directives table th {
+    background-color: #2a2a2a;
+    color: #6395c7;
+}
+
+.section-labels-comments-directives table tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+.section-labels-comments-directives table tr:nth-child(odd) {
+    background-color: #333;
+}
+
+.example-labels-comments-directives {
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-block-end: 20px;
+}
+
+.example-labels-comments-directives pre {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: monospace;
+    color: #2c95fd;
+    overflow-x: auto;
+}

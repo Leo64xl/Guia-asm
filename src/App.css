@@ -1,0 +1,9 @@
+.main-content {
+    margin-top: 70px; /* Adjust based on the height of your navbar */
+    padding-left: 0;
+    transition: padding-left 0.3s ease;
+}
+
+.main-content.sidebar-open {
+    padding-left: 245px; /* Adjust based on the width of your sidebar */
+}

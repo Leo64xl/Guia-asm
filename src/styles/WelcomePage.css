@@ -1,0 +1,198 @@
+.welcome-global-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252525;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.welcome-main-container {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 75px;
+}
+
+.welcome-main-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    background: linear-gradient(90deg, #e0e0e0, #ffffff, #cccccc, #ffffff, #e0e0e0);
+    background-size: 200% 200%;
+    animation: gradient-animation 3s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-icon {
+    background: linear-gradient(90deg, #e0e0e0, #ffffff, #cccccc, #ffffff, #e0e0e0);
+    background-size: 200% 200%;
+    animation: gradient-animation 3s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.welcome-sections {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.welcome-section {
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 23%;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.welcome-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: 0.5s;
+}
+
+.welcome-section:hover::before,
+.welcome-section.active::before {
+    left: 100%;
+}
+
+.welcome-section:hover,
+.welcome-section.active {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(174, 215, 255, 0.8), 0 0 20px rgba(174, 215, 255, 0.6), 0 0 30px rgba(174, 215, 255, 0.4);
+    border-color: #aed7ff;
+}
+
+.welcome-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #aed7ff;
+}
+
+.welcome-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ddd;
+}
+
+.welcome-detailed-content {
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+    margin-block-end: 35px;
+}
+
+.welcome-section-detail {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.welcome-section-detail h2 {
+    font-size: 1.8rem;
+    color: #aed7ff;
+    padding-bottom: 5px;/*copiare este para los titulos de las secciones*/
+    margin: 0;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.section-header h2 {
+    font-size: 1.8rem;
+    color: #aed7ff;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.copy-icon {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    transition: color 0.3s;
+}
+
+.copy-icon:hover {
+    color: #aed7ff;
+}
+
+.welcome-example {
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 8px;    
+    margin-top: 20px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    
+}
+
+.welcome-example ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.welcome-example li {
+    font-size: 1rem;
+    color: #1088ff;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-block-end: 0px;
+    background-color: #252525;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.text-welcome-detail {
+    color: #1088ff;
+}
+
+.welcome-example li strong {
+    color: #2f97ff;
+}
+
+@media (max-width: 768px) {
+    .welcome-section {
+        width: 100%;
+    }
+}

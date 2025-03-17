@@ -1,0 +1,17 @@
+.layout-children {
+    padding-left: 0;
+    transition: padding-left 0.3s ease;
+}
+
+.layout-children.sidebar-open {
+    padding-left: 245px; /* Adjust based on the width of your sidebar */
+}
+
+.footer {
+    padding-left: 0;
+    transition: padding-left 0.3s ease;
+}
+
+.footer.sidebar-open {
+    padding-left: 245px; /* Adjust based on the width of your sidebar */
+}

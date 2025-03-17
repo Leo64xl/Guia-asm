@@ -1,0 +1,45 @@
+.default-page-global {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #252525;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.default-page-global h1 {
+    font-size: 6rem;
+    margin-bottom: 20px;
+    color: #ff4c4c;
+}
+
+.default-page-global h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #aed7ff;
+}
+
+.default-page-global p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+.default-page-button {
+    background-color: #ff4c4c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.default-page-button:hover {
+    background-color: #ff1c1c;
+}
