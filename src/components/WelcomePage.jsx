@@ -58,7 +58,7 @@ const WelcomePage = () => {
       ),
     },
     {
-      title: "3. Formato ''Little Endian''",
+      title: "3. Formato Little Endian",
       subtitle: "Almacenamiento de datos y su importancia.",
       content: (
         <div>
@@ -135,13 +135,13 @@ const WelcomePage = () => {
             <li>
               <strong>Instalar NASM en tu sistema Linux:</strong>
               <p>
-                Aprenderás a instalar NASM (Netwide Assembler) en diferentes distribuciones de Linux, como Ubuntu, Debian, Fedora, y otras. Te guiaremos paso a paso a través del proceso de instalación utilizando el gestor de paquetes de tu distribución, así como también cómo compilar NASM desde el código fuente si es necesario.
+                Aprenderás a instalar NASM (Netwide Assembler) en una distribucion Linux, como Ubuntu. Te guiaremos paso a paso a través del proceso de instalación utilizando el gestor de paquetes, así como también cómo compilar NASM desde el código fuente si es necesario.
               </p>
             </li>
             <li>
               <strong>Compilar y enlazar programas en ensamblador:</strong>
               <p>
-                Descubrirás cómo escribir, compilar y enlazar programas en ensamblador utilizando NASM. Te explicaremos cómo convertir tu código ensamblador en un archivo objeto y luego enlazarlo para crear un ejecutable. También cubriremos los diferentes formatos de salida que NASM soporta, como ELF, binario plano, y más.
+                Descubrirás cómo escribir, compilar y enlazar programas en ensamblador utilizando NASM. Te explicaremos cómo convertir tu código ensamblador en un archivo objeto y luego enlazarlo para crear un ejecutable.
               </p>
             </li>
             <li>
@@ -175,7 +175,7 @@ const WelcomePage = () => {
             </li>
           </ul>
           <p>
-            Al final de esta guía, tendrás una comprensión de cómo trabajar con NASM y cómo aplicar estos conocimientos para desarrollar programas en ensamblador en sistemas Linux. Bienvenido a la programación de bajo nivel con NASM en Linux.
+            Al final de esta guía, tendrás una comprensión fundamental de cómo trabajar con NASM y cómo aplicar estos conocimientos para desarrollar programas en ensamblador en sistemas Linux. Bienvenido a la programación de bajo nivel con NASM en Linux.
           </p>
         </div>
 

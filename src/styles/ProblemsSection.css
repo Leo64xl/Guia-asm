@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #252525;
+    background-color: #0D1117;
     color: #fff;
     font-family: Arial, sans-serif;
     min-height: 100vh;
@@ -30,7 +30,6 @@
 .section-problems h2 {
     font-size: 1.8rem;
     color: #aed7ff;
-    /*border-bottom: 2px solid #2c95fd;*/
     padding-bottom: 5px;
 }
 
@@ -51,18 +50,47 @@
 }
 
 .example-problems {
-    background-color: #333;
-    border: 1px solid #444;
+    background-color: #161b22;
+    border: 1px solid #2c2f33;
     border-radius: 8px;
     padding: 20px;
     margin-top: 20px;
 }
 
 .example-problems pre {
-    background-color: #444;
+    background-color: #0d1117;
     padding: 10px;
     border-radius: 6px;
     font-family: monospace;
-    color: #2c95fd;
+    color: #f7a50c;
     overflow-x: auto;
+}
+
+/* Add margin-bottom to each section to create space between them */
+.section-problems:not(:last-child) {
+    margin-bottom: 60px; /* Adjust the value as needed */
+}
+
+/*responsive*/
+@media (max-width: 768px) {
+    .problems-container {
+        margin-top: 50px;
+    }
+
+    .section-problems h2 {
+        font-size: 1.5rem;
+    }
+
+    .section-problems p {
+        font-size: 0.9rem;
+    }
+
+    .section-problems table th,
+    .section-problems table td {
+        padding: 8px;
+    }
+
+    .example-problems pre {
+        padding: 8px;
+    }
 }

@@ -6,7 +6,7 @@ const LabelsCommentsDirectivesSection = () => {
   return (
     <div className='global-container-labels-comments-directives'>
       <div className="labels-comments-directives-container">
-        <h1>Etiquetas Comentarios y Directivas en NASM <FaCode /></h1>
+        <h1>Etiquetas Comentarios y Directivas <FaCode /></h1>
 
         {/* Etiquetas */}
         <div className="section-labels-comments-directives">

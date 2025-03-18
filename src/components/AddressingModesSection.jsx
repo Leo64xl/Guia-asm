@@ -6,7 +6,7 @@ const AddressingModesSection = () => {
   return (
     <div className='global-container-addressing'>
       <div className="addressing-container">
-        <h1>Modos de Direccionamiento en el 8086/88 <FaMicrochip /></h1>
+        <h1>Direccion de Memoria del 8086/88 <FaMicrochip /></h1>
 
         {/* Registro de Estado */}
         <div className="addressing-section">

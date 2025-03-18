@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #252525;
+    background-color: #0D1117;
     color: #fff;
     font-family: Arial, sans-serif;
     min-height: 100vh;
@@ -48,28 +48,28 @@
 
 .section-labels-comments-directives table th,
 .section-labels-comments-directives table td {
-    border: 1px solid #444;
+    border: 1px solid #2c2f33;
     padding: 10px;
     text-align: left;
-    color: #ddd;
+    color: #c9d1d9;
 }
 
 .section-labels-comments-directives table th {
-    background-color: #2a2a2a;
-    color: #6395c7;
+    background-color: #0d1117;
+    color: #f7a50c;
 }
 
 .section-labels-comments-directives table tr:nth-child(even) {
-    background-color: #2a2a2a;
+    background-color: #0d1117;
 }
 
 .section-labels-comments-directives table tr:nth-child(odd) {
-    background-color: #333;
+    background-color: #161b22;
 }
 
 .example-labels-comments-directives {
-    background-color: #333;
-    border: 1px solid #444;
+    background-color: #161b22;
+    border: 1px solid #2c2f33;
     border-radius: 8px;
     padding: 20px;
     margin-top: 20px;
@@ -77,10 +77,39 @@
 }
 
 .example-labels-comments-directives pre {
-    background-color: #444;
+    background-color: #0d1117;
     padding: 10px;
     border-radius: 6px;
     font-family: monospace;
-    color: #2c95fd;
+    color: #f7a50c;
     overflow-x: auto;
+}
+
+/* Add margin-bottom to each section to create space between them */
+.section-labels-comments-directives:not(:last-child) {
+    margin-bottom: 60px; /* Adjust the value as needed */
+}
+
+/*responsive*/
+@media (max-width: 768px) {
+    .labels-comments-directives-container {
+        margin-top: 50px;
+    }
+
+    .section-labels-comments-directives h2 {
+        font-size: 1.5rem;
+    }
+
+    .section-labels-comments-directives p {
+        font-size: 0.9rem;
+    }
+
+    .section-labels-comments-directives table th,
+    .section-labels-comments-directives table td {
+        padding: 8px;
+    }
+
+    .example-labels-comments-directives pre {
+        padding: 8px;
+    }
 }

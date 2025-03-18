@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #252525;
+    background-color: #0D1117;
     color: #fff;
     font-family: Arial, sans-serif;
     min-height: 100vh;
@@ -30,7 +30,6 @@
 .addressing-section h2 {
     font-size: 1.8rem;
     color: #aed7ff;
-    /*border-bottom: 2px solid #aed7ff;*/
     padding-bottom: 5px;
 }
 
@@ -49,38 +48,37 @@
 
 .addressing-section table th,
 .addressing-section table td {
-    border: 1px solid #444;
+    border: 1px solid #2c2f33;
     padding: 10px;
     text-align: left;
-    color: #ddd;
+    color: #c9d1d9;
 }
 
 .addressing-section table th {
-    background-color: #2a2a2a;
-    color: #6395c7;
+    background-color: #0d1117;
+    color: #f7a50c;
 }
 
 .addressing-section table tr:nth-child(even) {
-    background-color: #2a2a2a;
+    background-color: #0d1117;
 }
 
 .addressing-section table tr:nth-child(odd) {
-    background-color: #333;
+    background-color: #161b22;
 }
 
 .addressing-example-container {
-    background-color: #333;
-    border: 1px solid #444;
     border-radius: 8px;
     padding: 20px;
     margin-top: 20px;
 }
 
 .addressing-example {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 15px;
     border-radius: 8px;
-    background-color: #2a2a2a;    
+    background-color: #161b22;    
+    border: 1px solid #444;
 }
 
 .addressing-example h3 {
@@ -95,7 +93,7 @@
 }
 
 .addressing-example li {
-    background-color: #444;
+    background-color: #0d1117;
     padding: 10px;
     border-radius: 6px;
     font-family: monospace;
